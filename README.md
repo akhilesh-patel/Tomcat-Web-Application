@@ -81,6 +81,7 @@ docker rmi -f $(docker images -a -q)
 # Step 16 Enter public ip into the browser. please  don't forget port number.
      http://<ip:port>
      http://3.88.168.249:8080/webapp/
+     
 
 
      
@@ -97,6 +98,39 @@ docker rmi -f $(docker images -a -q)
  
 
 
+
+
+
+
+
+
+
+
+
+
+
+## Authors
+
+- [@Akhilesh Patel](https://www.github.com/akhilesh-patel)
+
+
+
+
+## 🚀 About Me
+I'm a Devops Engineer...
+
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]( https://www.linkedin.com/in/akhilesh-patel-8983aa1a5/)
+
+
+
+
+
+## FAQ
+* Please feel free to ask me any question you have. I'm here to help and provide information to the best of my abilities
 
 
 
