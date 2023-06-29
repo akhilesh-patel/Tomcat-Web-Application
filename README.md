@@ -65,15 +65,15 @@ docker rmi -f $(docker images -a -q)
       
         version: '3'
         services:
-        tomcat:
-          build:
-            context: .    
-            dockerfile: Dockerfile
-        image: tomcat-img
-        container_name: tomcat-con
-        restart: always
-        ports:
-          - '8080:8080'
+          tomcat:
+            build:
+                  context: .    
+                  dockerfile: Dockerfile
+            image: tomcat-img
+            container_name: tomcat-con
+            restart: always
+            ports:
+             - '8080:8080'
 # Steop 15: Run command.
         docker-compose up --build -d
         docker-compose down
